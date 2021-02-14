@@ -1,2 +1,7 @@
-# Raspberry_Pi_IP-Mailer-
-The code mails the IP address of the system when the system is restarted
+# rasberripi
+mkdir /home/pi/.config/autostart
+nano /home/pi/.config/autostart/clock.desktop
+[Desktop Entry]
+Type=Application
+Name=Clock
+Exec=/usr/bin/python3 /home/pi/clock.py
